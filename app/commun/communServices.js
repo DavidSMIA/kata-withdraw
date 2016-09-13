@@ -5,7 +5,7 @@ angular.module('core').service('communServices', function() {
      * Methode permettant de boucher la récuperation de l'utilisateur connecté
      */
 
-    var client = {id:1, nom:'jean-pierre', solde:100};
+    var client = {id:1, nom:'pierre-jean', solde:100};
     this.getClient = function() {
        //Bouchon pour récupérer l'utilisateur supposé loggué : jean-pierre
         return client;
