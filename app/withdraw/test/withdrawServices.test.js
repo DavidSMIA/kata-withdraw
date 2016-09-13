@@ -5,7 +5,7 @@ describe('Withdraw Services Tests Suite', function() {
 
     var client = {
         id : 1,
-        nom : 'jean-pierre',
+        nom : 'pierre-jean',
         solde : 100
     }
 
